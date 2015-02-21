@@ -31,4 +31,4 @@ group :doc do
   gem 'sdoc', require: false
 end
 
-gem 'rhinoart', path: '/var/www/rhinoart_cms' #git: 'https://github.com/ajahongir/rhinoart_cms.git', branch: 'aj/fix/fixed-related-partial-path'
+gem 'rhinoart', git: 'https://github.com/ajahongir/rhinoart_cms.git', branch: 'aj/fix/fixed-related-partial-path'
