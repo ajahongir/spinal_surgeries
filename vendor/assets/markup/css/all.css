@@ -1,0 +1,643 @@
+/* line 14, all.scss */
+body {
+  color: #000;
+  font: 400 15px/25px 'Glegoo' , Arial, Helvetica, sans-serif;
+  min-width: 320px;
+  background: white;
+}
+
+/* line 20, all.scss */
+img {
+  border-style: none;
+}
+
+/* line 21, all.scss */
+a {
+  text-decoration: none;
+  color: #607e86;
+}
+
+/* line 25, all.scss */
+a:hover {
+  text-decoration: underline;
+}
+
+/* line 26, all.scss */
+a:active {
+  text-decoration: none;
+}
+
+/* line 27, all.scss */
+#wrapper {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+/* line 32, all.scss */
+#nav ul:after,
+.logo-panel .holder:after,
+.logo-panel:after {
+  display: block;
+  clear: both;
+  content: '';
+}
+
+/* line 39, all.scss */
+.header {
+  height: 500px;
+  background: #fcf9f9 url(../images/img01.jpg) no-repeat 50% 0;
+  -webkit-background-size: cover;
+  background-size: cover;
+  position: relative;
+  border-bottom: 5px solid #ffab00;
+}
+
+/* line 48, all.scss */
+.header-block.stick {
+  padding: 75px 0 0;
+}
+/* line 49, all.scss */
+.header-block.stick .logo-panel {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* line 57, all.scss */
+.logo-panel {
+  z-index: 20;
+  background: #ffab00;
+  padding: 20px 0 19px;
+}
+/* line 61, all.scss */
+.logo-panel .holder {
+  max-width: 957px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* line 67, all.scss */
+.logo {
+  font: 700 40px/42px "Glegoo", Arial, Helvetica, sans-serif;
+  margin: 0 0 0 9px;
+  float: left;
+}
+/* line 71, all.scss */
+.logo a {
+  height: 100%;
+  color: #fff;
+  display: block;
+}
+/* line 75, all.scss */
+.logo a span {
+  color: #b2abe7;
+}
+/* line 79, all.scss */
+.logo a:hover {
+  text-decoration: none;
+}
+
+/* line 81, all.scss */
+.nav-holder {
+  float: right;
+  z-index: 50;
+}
+
+/* line 85, all.scss */
+#nav {
+  max-width: 981px;
+  width: 100%;
+  margin: 0 auto;
+  z-index: 10;
+  top: 0;
+}
+/* line 91, all.scss */
+#nav .opener-nav {
+  display: none;
+  position: absolute;
+  right: 10px;
+  top: 17px;
+  background: url(../images/btn-opener-nav.png) no-repeat;
+  width: 38px;
+  height: 24px;
+  cursor: pointer;
+}
+/* line 101, all.scss */
+#nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  padding: 10px 0 0;
+  text-align: center;
+  font-size: 15px;
+  line-height: 18px;
+}
+/* line 107, all.scss */
+#nav ul li {
+  position: relative;
+  padding: 0 9px;
+  display: inline-block;
+}
+/* line 111, all.scss */
+#nav ul li a {
+  color: #402625;
+  display: block;
+}
+/* line 117, all.scss */
+#nav .navigation-block > ul > li:hover > a,
+#nav .navigation-block > ul > li > a.active {
+  text-decoration: none;
+  color: #c20;
+}
+
+/* line 123, all.scss */
+#nav.mobile {
+  display: none;
+}
+
+/* line 124, all.scss */
+#main {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 4;
+  padding: 21px 0 0;
+}
+
+/* line 131, all.scss */
+article.container-fluid {
+  max-width: 970px;
+  margin: 0 auto;
+}
+/* line 134, all.scss */
+article.container-fluid .alignright {
+  float: right;
+  margin: 10px 4px 10px 18px;
+  text-align: center;
+}
+/* line 138, all.scss */
+article.container-fluid .alignright img {
+  margin: 0;
+  max-width: 100%;
+}
+/* line 143, all.scss */
+article.container-fluid .alignleft {
+  float: left;
+  margin: 10px 28px 18px 4px;
+}
+/* line 146, all.scss */
+article.container-fluid .alignleft img {
+  margin: 0;
+  max-width: 100%;
+}
+/* line 151, all.scss */
+article.container-fluid .aligncenter {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+/* line 157, all.scss */
+.container-block {
+  padding: 39px 0 0;
+}
+/* line 159, all.scss */
+.container-block p {
+  margin: 0 0 14px;
+}
+/* line 161, all.scss */
+.container-block p b {
+  font-weight: 700;
+  color: #21976c;
+}
+/* line 165, all.scss */
+.container-block p span {
+  color: #bf360c;
+  font-weight: 700;
+}
+/* line 170, all.scss */
+.container-block .clear {
+  width: 100%;
+  overflow: hidden;
+  padding: 0 0 22px;
+}
+/* line 175, all.scss */
+.container-block .heading-block {
+  background: #ff6f00;
+  padding: 12px 5px;
+  text-align: center;
+  margin: 0 0 30px;
+}
+/* line 182, all.scss */
+.container-block .col-md-12 > div {
+  overflow: hidden;
+  padding: 20px 0 25px;
+}
+
+/* line 188, all.scss */
+article h2 {
+  color: #fff;
+  font: 400 35px/38px "Glegoo", Arial, Helvetica, sans-serif;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+/* line 194, all.scss */
+article h3 {
+  color: #bf360c;
+  margin: 0 0 28px;
+  font: 400 25px/27px "Glegoo", Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  padding: 0 0 24px;
+  border-bottom: 2px solid #ff6f00;
+  text-transform: uppercase;
+}
+
+/* line 203, all.scss */
+article h4 {
+  color: #bf360c;
+  font: 700 20px/22px "Glegoo", Arial, Helvetica, sans-serif;
+  margin: 0 0 10px;
+}
+
+/* line 208, all.scss */
+.content-block ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  padding: 0 0 5px;
+  text-align: left;
+}
+/* line 212, all.scss */
+.content-block ul li {
+  position: relative;
+  line-height: 25px;
+  overflow: hidden;
+  padding: 3px 0 22px 35px;
+}
+/* line 217, all.scss */
+.content-block ul li:before {
+  content: '';
+  background: #b3d893;
+  width: 35px;
+  height: 13px;
+  background: url(../images/bullet.png) no-repeat 10px 0;
+  display: inline-block;
+  vertical-align: top;
+  margin: 8px 0 0 -35px;
+}
+/* line 227, all.scss */
+.content-block ul li span {
+  color: #bf360c;
+  font-weight: 700;
+}
+
+/* line 233, all.scss */
+.content-block img {
+  max-width: 100%;
+  vertical-align: top;
+  margin: 0 0 30px;
+  position: relative;
+  z-index: 5;
+}
+
+/* line 240, all.scss */
+.banner-holder {
+  background: #402625;
+  text-align: center;
+  padding: 10px 0 10px;
+}
+/* line 244, all.scss */
+.banner-holder .banner {
+  display: inline-block;
+}
+/* line 246, all.scss */
+.banner-holder .banner img {
+  vertical-align: top;
+  max-width: 100%;
+  width: 100%;
+}
+
+/* line 253, all.scss */
+#footer {
+  width: 100%;
+  position: relative;
+  background: #402625;
+  padding: 0 0 22px;
+}
+
+/* line 259, all.scss */
+.footer-panel {
+  max-width: 960px;
+  margin: 0 auto;
+  color: #fff;
+}
+/* line 263, all.scss */
+.footer-panel .copy {
+  display: block;
+  color: #bcaaa5;
+  padding: 12px 0 0 11px;
+  font: 13px/17px Arial, Helvetica, sans-serif;
+}
+
+/* line 270, all.scss */
+.social-nav {
+  padding: 35px 0 10px;
+}
+/* line 272, all.scss */
+.social-nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  text-align: center;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 279, all.scss */
+.social-nav ul li {
+  display: inline-block;
+  margin: 0 2px;
+  vertical-align: middle;
+}
+/* line 283, all.scss */
+.social-nav ul li a {
+  background: url(../images/bg-social-nav.png) no-repeat;
+  width: 42px;
+  height: 42px;
+  text-indent: -9999px;
+  display: block;
+}
+/* line 290, all.scss */
+.social-nav ul li.twitter a {
+  background-position: -50px 0;
+}
+/* line 291, all.scss */
+.social-nav ul li.google a {
+  background-position: -100px 0;
+}
+/* line 292, all.scss */
+.social-nav ul li.youtube a {
+  background-position: -150px 0;
+}
+/* line 293, all.scss */
+.social-nav ul li.instagram a {
+  background-position: -200px 0;
+}
+
+/* line 297, all.scss */
+.footer-nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  padding: 27px 0 0;
+  font-size: 15px;
+  line-height: 18px;
+}
+/* line 302, all.scss */
+.footer-nav ul li {
+  position: relative;
+  padding: 0 9px 10px;
+  display: inline-block;
+}
+/* line 306, all.scss */
+.footer-nav ul li a {
+  color: #ffab00;
+  display: block;
+}
+/* line 312, all.scss */
+.footer-nav li:hover a,
+.footer-nav li a.active {
+  text-decoration: none;
+  color: #49a986;
+}
+
+@media only screen and (max-width: 991px) {
+  /* line 319, all.scss */
+  article.container-fluid {
+    margin: 0 2%;
+  }
+
+  /* line 322, all.scss */
+  .navigation {
+    display: none;
+  }
+
+  /* line 325, all.scss */
+  .navigation-block.expanded .navigation {
+    display: block;
+  }
+
+  /* line 326, all.scss */
+  .nav-holder {
+    max-width: 992px;
+  }
+
+  /* line 330, all.scss */
+  .logo-panel .holder {
+    max-width: 992px;
+  }
+
+  /* line 334, all.scss */
+  #nav {
+    padding: 0;
+    z-index: 20;
+    width: 100%;
+    position: relative;
+    max-width: 992px;
+  }
+  /* line 340, all.scss */
+  #nav .opener-nav {
+    display: block;
+    top: 12px;
+  }
+  /* line 344, all.scss */
+  #nav ul {
+    width: 320px;
+    position: absolute;
+    right: 0;
+    top: 60px;
+    padding: 0;
+    background: #ffab00;
+    height: auto;
+  }
+  /* line 352, all.scss */
+  #nav ul li {
+    float: none;
+    display: block;
+    padding: 0;
+    margin: 0 0 1px;
+  }
+  /* line 357, all.scss */
+  #nav ul li a {
+    text-align: left;
+    display: block;
+    padding: 14px 20px 15px;
+    border: none;
+  }
+  /* line 363, all.scss */
+  #nav ul li ul {
+    font-size: 14px;
+    position: static;
+    display: block;
+    float: none;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    background: none;
+    padding: 0;
+  }
+  /* line 374, all.scss */
+  #nav ul li ul li {
+    background: none;
+    display: block;
+  }
+  /* line 377, all.scss */
+  #nav ul li ul li a {
+    padding: 5px 20px 5px 25px;
+  }
+
+  /* line 385, all.scss */
+  #nav ul li a.active,
+  #nav ul a:hover {
+    text-decoration: none;
+    border: none !important;
+  }
+
+  /* line 390, all.scss */
+  article h2:before,
+  article h2:after {
+    display: none !important;
+  }
+
+  /* line 395, all.scss */
+  .footer-nav ul {
+    text-align: center;
+  }
+
+  /* line 400, all.scss */
+  .footer-panel .copy {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* line 406, all.scss */
+  .bigImage {
+    float: none !important;
+    display: block;
+    margin: 12px auto 15px !important;
+  }
+
+  /* line 411, all.scss */
+  .logo {
+    font-size: 36px;
+  }
+
+  /* line 414, all.scss */
+  .footer-panel {
+    text-align: center;
+    overflow: hidden;
+  }
+  /* line 417, all.scss */
+  .footer-panel .row {
+    position: relative;
+    padding: 0 0 40px;
+  }
+  /* line 421, all.scss */
+  .footer-panel .row .copyright .copy {
+    text-align: center;
+  }
+
+  /* line 427, all.scss */
+  .footer-nav ul {
+    text-align: center;
+  }
+  /* line 429, all.scss */
+  .footer-nav ul li {
+    display: block;
+    margin: 0 0 10px;
+  }
+  /* line 432, all.scss */
+  .footer-nav ul li:before {
+    display: none;
+  }
+
+  /* line 437, all.scss */
+  .social-nav ul {
+    width: 100%;
+    text-align: center;
+  }
+  /* line 440, all.scss */
+  .social-nav ul li {
+    display: inline-block;
+    float: none;
+  }
+
+  /* line 445, all.scss */
+  .footer-panel .row {
+    padding: 0 0 10px;
+  }
+
+  /* line 446, all.scss */
+  .header {
+    height: 360px;
+  }
+
+  /* line 449, all.scss */
+  .container-block.add2,
+  .container-block.add3 {
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+}
+@media only screen and (max-width: 640px) {
+  /* line 455, all.scss */
+  .footer-nav ul {
+    font-size: 17px;
+  }
+
+  /* line 458, all.scss */
+  .header {
+    background-position: 64% 0;
+  }
+
+  /* line 461, all.scss */
+  article .alignleft,
+  article .alignright {
+    float: none !important;
+    display: block;
+    margin: 10px auto 20px !important;
+  }
+
+  /* line 469, all.scss */
+  .logo {
+    font-size: 40px;
+    line-height: 42px;
+  }
+
+  /* line 473, all.scss */
+  article h2 {
+    font-size: 36px;
+    min-width: 50px;
+  }
+
+  /* line 477, all.scss */
+  .logo-panel .holder p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  /* line 483, all.scss */
+  .logo {
+    font-size: 24px;
+  }
+
+  /* line 486, all.scss */
+  article h2 {
+    font-size: 30px;
+  }
+}

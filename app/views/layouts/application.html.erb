@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>DISK HERNIA FIX</title>
+  <%= csrf_meta_tags %>
+
+  <link href='http://fonts.googleapis.com/css?family=Glegoo:400,700' rel='stylesheet' type='text/css'>
+
+  <%= stylesheet_link_tag    'application', 'template' %>
+  <%= javascript_include_tag 'application', 'template' %>
+
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script type="text/javascript">window.jQuery || document.write('<script src="js/jquery-1.11.1.min.js"><\/script>')</script>
+  <!--[if IE]><script type="text/javascript" src="js/ie.js"></script><![endif]-->
+</head>
+<body>
+  <div id="wrapper">
+    <%= render 'layouts/banner' %>
+
+    <div id="nav-anchor"></div>
+
+    <%= render 'layouts/header' %>
+
+    <section id="main">
+      <div class="container-block">
+        <article class="container-fluid">
+          <div class="content-block row">
+            <div class="col-md-12">
+              <%= yield %>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <%= render 'layouts/footer' %>
+
+  </div>
+</body>
+</html>
